@@ -1,0 +1,49 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <http://example.org/rules/>.
+@prefix schema: <http://schema.org/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+
+:TriplesMap rdf:type rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      rdf:type csvw:Table;
+      csvw:url "straten.csv";
+      csvw:dialect [
+        rdf:type csvw:Dialect;
+        csvw:delimiter "\t";
+        csvw:encoding "UTF-8"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [ rr:template "https://www.goudatimemachine.nl/id/straten/{straat-id}" ];
+  rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant <http://rdf.histograph.io/Street>; rr:constant <http://www.w3.org/2004/02/skos/core#Concept> ]
+], [
+  rr:predicate <http://www.w3.org/2000/01/rdf-schema#label>;
+  rr:objectMap [ rml:reference "naam" ]
+], [
+  rr:predicate <http://rdf.histograph.io/liesIn>;
+  rr:objectMap [ rml:reference "gouda-gg" ; rr:termType rr:IRI]
+], [
+  rr:predicate <http://rdf.histograph.io/liesIn>;
+  rr:objectMap [ rml:reference "gouda-geo" ; rr:termType rr:IRI]
+], [
+  rr:predicate <http://www.w3.org/2002/07/owl#sameAs>;
+  rr:objectMap [ rml:reference "wikidata-uri" ; rr:termType rr:IRI ]
+], [
+  rr:predicate <http://www.w3.org/2003/01/geo/wgs84_pos#long>;
+  rr:objectMap [ rml:reference "long" ]
+], [
+  rr:predicate <http://www.w3.org/2003/01/geo/wgs84_pos#lat>;
+  rr:objectMap [ rml:reference "lat" ]
+], [
+  rr:predicate <http://www.w3.org/2002/07/owl#sameAs>;
+  rr:objectMap [ rml:reference "bag-uri" ; rr:termType rr:IRI]
+].
+

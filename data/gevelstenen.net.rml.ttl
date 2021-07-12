@@ -1,0 +1,69 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <http://example.org/rules/>.
+@prefix schema: <http://schema.org/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+
+:TriplesMap rdf:type rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+        rdf:type csvw:Table;
+        csvw:url "gevelstenen.gouda.csv";
+        csvw:dialect [
+        rdf:type csvw:Dialect;
+        csvw:delimiter "\t";
+        csvw:encoding "UTF-8"
+        ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [ rr:template "https://www.goudatimemachine.nl/id/gevelstenen.net/gouda-{identifier}" ];
+  rr:predicateObjectMap [
+    rr:predicate rdf:type;
+    rr:objectMap [ rr:constant <http://www.w3.org/2000/01/rdf-schema#Resource> ]
+], [
+    rr:predicate <https://schema.org/addressLocality>;
+    rr:objectMap [ rml:reference "plaats" ]
+], [
+    rr:predicate <https://schema.org/address>;
+    rr:objectMap [ rml:reference "adres" ]
+], [
+    rr:predicate <https://schema.org/disambiguatingDescription>;
+    rr:objectMap [ rml:reference "locatie" ]
+], [
+    rr:predicate <https://schema.org/postalCode>;
+    rr:objectMap [ rml:reference "postcode" ]
+], [
+    rr:predicate <http://www.w3.org/2003/01/geo/wgs84_pos#lat>;
+    rr:objectMap [ rml:reference "breedtegraad" ]
+], [
+    rr:predicate <http://www.w3.org/2003/01/geo/wgs84_pos#long>;
+    rr:objectMap [ rml:reference "lengtegraad" ]
+], [
+    rr:predicate <http://rdf.histograph.io/liesIn>;
+    rr:objectMap [ rml:reference "straat-id" ; rr:termType rr:IRI ]
+], [
+    rr:predicate <https://schema.org/abstract>;
+    rr:objectMap [ rml:reference "voorstelling" ]
+], [
+    rr:predicate <https://schema.org/description>;
+    rr:objectMap [ rml:reference "opschrift" ]
+], [
+    rr:predicate <http://purl.org/dc/terms/created>;
+    rr:objectMap [ rml:reference "datering" ]
+], [
+    rr:predicate <http://xmlns.com/foaf/0.1/depiction>;
+    rr:objectMap [ rml:reference "afbeelding 1" ]
+], [
+    rr:predicate <http://xmlns.com/foaf/0.1/thumbnail>;
+    rr:objectMap [ rml:reference "afbeelding klein 1" ]
+], [
+    rr:predicate <http://xmlns.com/foaf/0.1/depiction>;
+    rr:objectMap [ rml:reference "afbeelding 2" ]
+], [
+    rr:predicate <http://xmlns.com/foaf/0.1/thumbnail>;
+    rr:objectMap [ rml:reference "afbeelding klein 2" ]
+].
