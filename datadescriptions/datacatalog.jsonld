@@ -1,0 +1,319 @@
+﻿{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "schema:DataDownload",
+    "identifier" : "ark:/60537/b5PBiz",
+    "contentSize" : "2.3 MB",
+    "contentUrl" : "https://www.goudatijdmachine.nl/wp-content/uploads/sites/7/2021/09/Totaal_perceel_Plaand_EPSG_4326.geojson",
+    "dateModified" : "2021-09-03",
+    "encodingFormat" : "application/geo+json",
+    "name" : "Totaal_perceel_Plaand_EPSG_4326.geojson"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "schema:DataDownload",
+    "identifier" : "ark:/60537/bDVRMD",
+    "contentSize" : "2.8 MB",
+    "contentUrl" : "https://www.goudatijdmachine.nl/wp-content/uploads/sites/7/2021/09/Totaal_perceel.geojson",
+    "dateModified" : "2021-09-03",
+    "encodingFormat" : "application/geo+json",
+    "name" : "Totaal_perceel.geojson"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "schema:DataDownload",
+    "identifier" : "ark:/60537/bHGtak",
+    "contentSize" : "757 kB",
+    "contentUrl" : "https://www.goudatijdmachine.nl/wp-content/uploads/sites/7/2021/09/VT_1830_Gouda_voor_werkgroep_verdichting.xlsx",
+    "dateCreated" : "‎2020-07-08",
+    "encodingFormat" : "application/vnd.ms-excel",
+    "name" : "VT_1830_Gouda_voor_werkgroep_verdichting.xlsx"
+  }, {
+    "@id" : "_:b3",
+    "@type" : "schema:DataDownload",
+    "identifier" : "ark:/60537/b9nv0J",
+    "contentSize" : "47.9 kB",
+    "contentUrl" : "https://www.goudatijdmachine.nl/wp-content/uploads/sites/7/2021/09/straatnamen1830.geojson",
+    "dateModified" : "2021-09-03",
+    "encodingFormat" : "application/geo+json",
+    "name" : "straatnamen1830.geojson"
+  }, {
+    "@id" : "_:b4",
+    "@type" : "schema:DataDownload",
+    "identifier" : "ark:/60537/bTymqh",
+    "contentSize" : "24.0 kB",
+    "contentUrl" : "https://www.goudatijdmachine.nl/wp-content/uploads/sites/7/2021/09/wijkindeling-1875.geojson",
+    "dateModified" : "2021-09-03",
+    "encodingFormat" : "application/geo+json",
+    "name" : "wijkindeling_1875.geojson"
+  }, {
+    "@id" : "_:b5",
+    "@type" : "schema:DataDownload",
+    "identifier" : "ark:/60537/b7hv7Z",
+    "contentSize" : "117.9 kB",
+    "contentUrl" : "https://www.goudatijdmachine.nl/wp-content/uploads/sites/7/2021/09/wijkindeling-1811.geojson",
+    "dateModified" : "2021-09-03",
+    "encodingFormat" : "application/geo+json",
+    "name" : "wijkindeling-1811.geojson"
+  }, {
+    "@id" : "_:b6",
+    "@type" : "schema:DataDownload",
+    "identifier" : "ark:/60537/bRtmxy",
+    "contentSize" : "209.7 kB",
+    "contentUrl" : "https://www.goudatijdmachine.nl/wp-content/uploads/sites/7/2021/09/Verp_plaats_Hofst.geojson",
+    "dateModified" : "2021-09-03",
+    "encodingFormat" : "application/geo+json",
+    "name" : "Verp_plaats_Hofs.geojson"
+  }, {
+    "@id" : "_:b7",
+    "@type" : "schema:DataDownload",
+    "identifier" : "ark:/60537/bo6GsS",
+    "contentSize" : "1.8 MB",
+    "contentUrl" : "https://www.goudatijdmachine.nl/wp-content/uploads/sites/7/2021/09/panden_1830.geojson",
+    "dateModified" : "2021-09-03",
+    "encodingFormat" : "application/geo+json",
+    "name" : "panden_1830.geojson"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/145",
+    "@type" : "schema:Dataset",
+    "identifier" : "ark:/60537/bY7KzF",
+    "citation" : "Kadaster 1832, verpondingsregister 1785",
+    "creator" : [ "https://www.goudatijdmachine.nl/data/api/items/231", "https://www.goudatijdmachine.nl/data/api/items/237" ],
+    "dateModified" : "2021-09-05",
+    "datePublished" : "2021-09-05",
+    "description" : "Combinatie van kadastrale perceelnummers uit 1832 met Verpondingsnummers uit het verpondingsregister 1875 en de plaatselijke aanduiding uit het verpondingsregister. Gebruikte coördinaten referentiesysteem is WGS 84 (EPSG:4326).",
+    "distribution" : "_:b0",
+    "license" : {
+      "@language" : "nl",
+      "@value" : "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+    },
+    "mainEntityOfPage" : "https://www.goudatijdmachine.nl/totaal_perceel_plaand-2/",
+    "name" : "Combinatie perceelnummers met verpondingsregister",
+    "publisher" : "https://www.goudatijdmachine.nl/data/api/items/232",
+    "spatialCoverage" : "https://sws.geonames.org/2755420/"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/231",
+    "@type" : "schema:Organization",
+    "identifier" : "ark:/60537/bFO9YY",
+    "alternateName" : "SAMH",
+    "description" : "Streekarchief Midden-Holland beheert het geheugen van de regio Midden-Holland.",
+    "name" : "Streekarchief Midden-Holland",
+    "url" : "https://www.samh.nl/"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/232",
+    "@type" : "schema:Organization",
+    "identifier" : "ark:/60537/by6gvD",
+    "alternateName" : "GTM",
+    "description" : "Een tijdmachine die de bebouwing van de historische binnenstad van Gouda onderzoekt, digitaal vastlegt en prachtig weergeeft. De Gouda Tijdmachine is een initatief van historische vereniging Die Goude en Streekarchief Midden-Holland.",
+    "name" : "Gouda Tijdmachine",
+    "url" : "https://www.goudatijdmachine.nl/"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/240",
+    "@type" : "schema:Dataset",
+    "identifier" : "ark:/60537/b1sTQy",
+    "citation" : "Kadaster 1832",
+    "creator" : [ "https://www.goudatijdmachine.nl/data/api/items/237", "https://www.goudatijdmachine.nl/data/api/items/231" ],
+    "dateModified" : "2021-09-05",
+    "datePublished" : "2021-09-05",
+    "description" : "Bestand met straatnamen die in 1830 op de kadastrale kaart zijn genoteerd. Gebruikte coördinaten referentiesysteem is WGS 84 (EPSG:4326).",
+    "distribution" : "_:b3",
+    "license" : {
+      "@language" : "nl",
+      "@value" : "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+    },
+    "mainEntityOfPage" : "https://www.goudatijdmachine.nl/straatnamen-gouda-1830/",
+    "name" : "Straatnamen Gouda 1830",
+    "publisher" : "https://www.goudatijdmachine.nl/data/api/items/232",
+    "spatialCoverage" : "https://sws.geonames.org/2755420/",
+    "temporalCoverage" : "1830"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/242",
+    "@type" : "schema:Dataset",
+    "identifier" : "ark:/60537/bLDLfg",
+    "citation" : "Streekarchief Midden-Holland",
+    "creator" : [ "https://www.goudatijdmachine.nl/data/api/items/237", "https://www.goudatijdmachine.nl/data/api/items/231" ],
+    "dateModified" : "2021-09-05",
+    "datePublished" : "2021-09-05",
+    "description" : "Binnenstad van Gouda ingedeeld in wijkletters ingevoerd vanaf 1811 gebruikt tot 1850. Gebruikte coördinaten referentiesysteem is WGS 84 (EPSG:4326).",
+    "distribution" : "_:b4",
+    "license" : {
+      "@language" : "nl",
+      "@value" : "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+    },
+    "mainEntityOfPage" : "https://www.goudatijdmachine.nl/wijkindeling-1875-2/",
+    "name" : "Wijkindeling Gouda 1875",
+    "publisher" : "https://www.goudatijdmachine.nl/data/api/items/232",
+    "spatialCoverage" : "https://sws.geonames.org/2755420/",
+    "temporalCoverage" : "1875"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/244",
+    "@type" : "schema:Dataset",
+    "identifier" : "ark:/60537/bw1gCT",
+    "citation" : "OAT 1832 (Oorspronkelijk aanwijzende tafel) en Kadastrale kaart 1832",
+    "creator" : [ "https://www.goudatijdmachine.nl/data/api/items/237", "https://www.goudatijdmachine.nl/data/api/items/231" ],
+    "dateModified" : "2021-09-05",
+    "datePublished" : "2021-09-05",
+    "description" : "De kadastrale percelen met hun nummer zoals besloten in 1832. Gebruikte coördinaten referentiesysteem is WGS 84 (EPSG:4326).",
+    "distribution" : "_:b1",
+    "license" : {
+      "@language" : "nl",
+      "@value" : "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+    },
+    "mainEntityOfPage" : "https://www.goudatijdmachine.nl/percelen/",
+    "name" : "Kadaster Gouda 1832",
+    "publisher" : "https://www.goudatijdmachine.nl/data/api/items/232",
+    "spatialCoverage" : "https://sws.geonames.org/2755420/"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/246",
+    "@type" : "schema:Dataset",
+    "identifier" : "ark:/60537/bfc5h0",
+    "citation" : "Kadaster 1832",
+    "creator" : [ "https://www.goudatijdmachine.nl/data/api/items/237", "https://www.goudatijdmachine.nl/data/api/items/231" ],
+    "dateModified" : "2021-09-05",
+    "datePublished" : "2021-09-05",
+    "description" : "De panden zoals die door het kadaster op de kadastrale kaart van 1832 zijn ingetekend. Gebruikte coördinaten referentiesysteem is WGS 84 (EPSG:4326).",
+    "distribution" : "_:b7",
+    "license" : {
+      "@language" : "nl",
+      "@value" : "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+    },
+    "mainEntityOfPage" : "https://www.goudatijdmachine.nl/panden-gouda-1830/",
+    "name" : "Panden Gouda 1830",
+    "publisher" : "https://www.goudatijdmachine.nl/data/api/items/232",
+    "spatialCoverage" : "https://sws.geonames.org/2755420/",
+    "temporalCoverage" : "1830"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/248",
+    "@type" : "schema:Dataset",
+    "identifier" : "ark:/60537/bZnWHq",
+    "citation" : "Verpondingsregisters",
+    "creator" : [ "https://www.goudatijdmachine.nl/data/api/items/237", "https://www.goudatijdmachine.nl/data/api/items/231" ],
+    "dateModified" : "2021-09-05",
+    "datePublished" : "2021-09-05",
+    "description" : "Binnenstad van Gouda ingedeeld in wijkletters ingevoerd vanaf 1850. Gebruikte coördinaten referentiesysteem is WGS 84 (EPSG:4326).",
+    "distribution" : "_:b5",
+    "license" : {
+      "@language" : "nl",
+      "@value" : "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+    },
+    "mainEntityOfPage" : "https://www.goudatijdmachine.nl/wijkindeling-1811-2/",
+    "name" : "Wijkindeling Gouda 1811",
+    "publisher" : "https://www.goudatijdmachine.nl/data/api/items/232",
+    "spatialCoverage" : "https://sws.geonames.org/2755420/",
+    "temporalCoverage" : "1811"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/250",
+    "@type" : "schema:Dataset",
+    "identifier" : "ark:/60537/bJLt34",
+    "citation" : "Verpondingsregister 1785, verpondingsregister latere datums en Hofstedegeldregister.",
+    "creator" : [ "https://www.goudatijdmachine.nl/data/api/items/231", "https://www.goudatijdmachine.nl/data/api/items/237" ],
+    "dateModified" : "2021-09-05",
+    "datePublished" : "2021-09-05",
+    "description" : "Combinatie van alle Verpondingnummers met de bijbehorende plaatselijke aanduidingen en de Hofstedegeldnummers. Gebruikte coördinaten referentiesysteem is WGS 84 (EPSG:4326).",
+    "distribution" : "_:b6",
+    "license" : {
+      "@language" : "nl",
+      "@value" : "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+    },
+    "mainEntityOfPage" : "https://www.goudatijdmachine.nl/combinatie-verponding-en-hofstedegeldnummers/",
+    "name" : "Combinatie verponding- en hofstedegeldnummers",
+    "publisher" : "https://www.goudatijdmachine.nl/data/api/items/232",
+    "spatialCoverage" : "https://sws.geonames.org/2755420/"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/data/api/items/259",
+    "@type" : "schema:Dataset",
+    "identifier" : "ark:/60537/bzLS0j",
+    "citation" : {
+      "@id" : "https://samh.nl/bronnen/archives/details/0056/path/2.9.2.2.1.1/keywords/1388/withscans/0/start/0/limit/10/flimit/5/filters:ead.eadheader.eadid/0056"
+    },
+    "creator" : [ "https://www.goudatijdmachine.nl/data/api/items/237", "https://www.goudatijdmachine.nl/data/api/items/231" ],
+    "dateCreated" : "2021-09-08",
+    "datePublished" : "2021-09-08",
+    "description" : "Een index op het volkstellingregister van Gouda uit 1830.",
+    "distribution" : "_:b2",
+    "license" : {
+      "@language" : "nl",
+      "@value" : "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+    },
+    "name" : "Volkstellingregister Gouda 1830",
+    "publisher" : "https://www.goudatijdmachine.nl/data/api/items/232",
+    "schema:spatialCoverage" : "Gouda",
+    "temporalCoverage" : "1830"
+  }, {
+    "@id" : "https://www.goudatijdmachine.nl/id/datacatalog",
+    "@type" : "schema:DataCatalog",
+    "creator" : "https://www.goudatijdmachine.nl/data/api/items/231",
+    "dataset" : [ "https://www.goudatijdmachine.nl/data/api/items/250", "https://www.goudatijdmachine.nl/data/api/items/248", "https://www.goudatijdmachine.nl/data/api/items/244", "https://www.goudatijdmachine.nl/data/api/items/145", "https://www.goudatijdmachine.nl/data/api/items/240", "https://www.goudatijdmachine.nl/data/api/items/242", "https://www.goudatijdmachine.nl/data/api/items/246", "https://www.goudatijdmachine.nl/data/api/items/259" ],
+    "description" : "Vrijwilligers hebben in het kader van de Gouda Tijdmachine indexen van diverse bronnen gemaakt. Deze indexen worden gebruikt op de Gouda Tijdmachine en zijn ook beschikbaar voor hergebruik.",
+    "name" : "Datasets Gouda Tijdmachine",
+    "publisher" : "https://www.goudatijdmachine.nl/data/api/items/232"
+  } ],
+  "@context" : {
+    "datePublished" : {
+      "@id" : "https://schema.org/datePublished"
+    },
+    "spatialCoverage" : {
+      "@id" : "https://schema.org/spatialCoverage",
+      "@type" : "@id"
+    },
+    "distribution" : {
+      "@id" : "https://schema.org/distribution",
+      "@type" : "@id"
+    },
+    "mainEntityOfPage" : {
+      "@id" : "https://schema.org/mainEntityOfPage"
+    },
+    "name" : {
+      "@id" : "https://schema.org/name"
+    },
+    "creator" : {
+      "@id" : "https://schema.org/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "https://schema.org/description"
+    },
+    "publisher" : {
+      "@id" : "https://schema.org/publisher",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "license" : {
+      "@id" : "https://schema.org/license"
+    },
+    "citation" : {
+      "@id" : "https://schema.org/citation"
+    },
+    "dateModified" : {
+      "@id" : "https://schema.org/dateModified"
+    },
+    "dateCreated" : {
+      "@id" : "https://schema.org/dateCreated"
+    },
+    "temporalCoverage" : {
+      "@id" : "https://schema.org/temporalCoverage"
+    },
+    "encodingFormat" : {
+      "@id" : "https://schema.org/encodingFormat"
+    },
+    "contentUrl" : {
+      "@id" : "https://schema.org/contentUrl"
+    },
+    "contentSize" : {
+      "@id" : "https://schema.org/contentSize"
+    },
+    "url" : {
+      "@id" : "https://schema.org/url"
+    },
+    "alternateName" : {
+      "@id" : "https://schema.org/alternateName"
+    },
+    "dataset" : {
+      "@id" : "https://schema.org/dataset",
+      "@type" : "@id"
+    },
+    "schema" : "https://schema.org/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "dc" : "http://purl.org/dc/terms/"
+  }
+}
